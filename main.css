@@ -1,0 +1,28 @@
+* {
+    padding: 0 auto;
+    margin: 0 auto;
+    box-sizing: border-box;
+    overflow-x: hidden;
+
+}
+
+#header-main {
+    display: flex;
+    flex-direction: column;
+
+}
+
+#headline {
+    position: relative;
+    top: -500px;
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-shadow: 5px 1px 1px solid black;
+
+}
+
+#bcg-canvas {
+    background-color: rgb(58, 134, 255);
+}
